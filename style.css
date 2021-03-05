@@ -1,0 +1,54 @@
+section{
+    width:60%;
+    border:20px solid gray;
+    margin :30px auto;
+    padding:20px;
+    font-family:"Roboto",sans-serif;
+
+
+}
+article img{
+    width:40%;
+    margin: 1px 10px 10px 1px;
+    float:left;
+
+}
+.para{
+    clear:both;
+}
+
+    hr {
+        overflow: visible; 
+        height: 30px;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px 0 0 0;
+        border-radius: 20px;
+    }
+    hr:before { 
+        display: block;
+        content: "";
+        height: 30px;
+        margin-top: -31px;
+        border-style: solid;
+        border-color: black;
+        border-width: 0 0 1px 0;
+        border-radius: 20px;
+    }
+    .para1{
+        clear:both;
+    }
+    .firstpara::first-letter{
+        font-size:2.5rem;
+        
+    }
+    .second{
+        font-family: 'Akaya Telivigala', cursive;
+        font-size:20;
+    }
+h2{
+    text-align:center;
+    font-size:30;
+    letter-spacing:7;
+    color:cornflowerblue
+}
